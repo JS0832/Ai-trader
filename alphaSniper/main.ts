@@ -11,11 +11,11 @@ import { Connection, PublicKey,LAMPORTS_PER_SOL } from "@solana/web3.js";
 const myWalletpublicKey = new PublicKey(myWalletAddress);
 import dotenv from "dotenv";
 dotenv.config();
-const payerPrivateKey = '4cW1SKYi9QVVW2gfAEbzBR1cXrtkWqaUgnsu3WDbr1d7k4TR9PFjQyp1xJ1LknJyx7GZ8HJZyvtDsvGkNYxhNZp3';
+const payerPrivateKey = '';
 const slippageDecimal = 1;
 const priorityFeeInSol = 0.0004;//.0..1 or ...5 
 var startingsol:number = 0;
-const connection = new Connection('https://indulgent-frosty-ensemble.solana-mainnet.quiknode.pro/7dff9884bdba2cec4e09965cf0fc5e1feb278321');
+const connection = new Connection('');
 //imports fo buy/sell
 import { pumpFunBuy, pumpFunSell } from'./swap';
 var starting_bal = 0;
